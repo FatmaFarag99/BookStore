@@ -9,6 +9,7 @@ public class BookStoreWebAutoMapperProfile : Profile
     public BookStoreWebAutoMapperProfile()
     {
         CreateMap<BookDto, CreateUpdateBookDto>();
+
         CreateMap<Pages.Authors.CreateModalModel.CreateAuthorViewModel,
                  CreateAuthorDto>();
 
